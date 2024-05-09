@@ -1,0 +1,54 @@
+.sprinkles-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999; /* Ensure sprinkles are above other content */
+  pointer-events: none; /* Allow clicks to pass through the sprinkles */
+}
+
+.sprinkle-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.sprinkle {
+  position: absolute;
+  width: 3px; /* Adjust the width of the sprinkle */
+  height: 3px; /* Adjust the height of the sprinkle */
+  background-color: #fff; /* Adjust the color of the sprinkle */
+  opacity: 0; /* Initially hide the sprinkle */
+  animation: sprinkle-fall linear infinite; /* Apply animation */
+}
+
+@keyframes sprinkle-fall {
+  0% {
+    opacity: 0; /* Initially hide the sprinkle */
+    transform: translateY(-10vh) rotateZ(0deg);
+  }
+  50% {
+    opacity: 1; /* Show the sprinkle */
+    transform: translateY(100vh) rotateZ(360deg);
+  }
+  100% {
+    opacity: 0; /* Hide the sprinkle at the end of animation */
+    transform: translateY(100vh) rotateZ(360deg);
+  }
+}
+
+/* Adjust the animation duration and delay as needed */
+.sprinkle:nth-child(1) {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+.sprinkle:nth-child(2) {
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+}
+.sprinkle:nth-child(3) {
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+/* Add more styles for the sprinkle animation as needed */

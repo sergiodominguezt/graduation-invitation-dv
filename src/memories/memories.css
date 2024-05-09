@@ -1,0 +1,43 @@
+.memories-image {
+  margin: 0 auto;
+  text-align: center; /* Center the content horizontally */
+}
+
+.memories-image img {
+  display: block; /* Ensure the image is displayed as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.memories-image p {
+  margin: 10px;
+  color: #102c57;
+}
+
+.memories-text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.memories-text h2 {
+  text-align: center;
+}
+
+.memories-text p {
+  color: #102c57;
+}
+
+.memories-timeline {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.memories-timeline img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .memories-timeline {
+    max-width: 50%;
+  }
+}

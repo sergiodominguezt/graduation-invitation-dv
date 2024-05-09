@@ -1,0 +1,10 @@
+.scroll-down-arrow {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 9999;
+}

@@ -1,0 +1,59 @@
+.event-details-title {
+  text-align: center;
+  margin: 30px;
+}
+.event-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.event-card {
+  text-align: center;
+  color: #102c57;
+}
+
+.event-button {
+  display: flex;
+}
+
+.event-button button {
+  margin: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #102c57;
+  border-radius: 10px;
+  border: 2px solid #a08825;
+  padding: 5px;
+}
+
+.confirmation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.check-image {
+  margin: 10px;
+}
+
+.confirmation-button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.confirmation-button button {
+  margin: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #102c57;
+  border-radius: 10px;
+  border: 2px solid #a08825;
+  padding: 5px;
+}

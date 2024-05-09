@@ -1,0 +1,32 @@
+.banner {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.responsive-image {
+  width: 100%;
+  display: block;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    max-width: 50%; /* Adjust this value according to your design */
+    margin: 0 auto; /* Center the banner horizontally */
+  }
+}
+
+.banner-text {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto; /* Center the banner horizontally */
+  display: block;
+}
+
+.banner-text h1 {
+  margin: 0;
+  padding: 0;
+}

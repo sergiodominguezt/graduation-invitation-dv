@@ -1,0 +1,27 @@
+.image-graduation {
+  margin: 0 auto;
+  text-align: center; /* Center the content horizontally */
+}
+
+.image-graduation img {
+  display: block; /* Ensure the image is displayed as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.image-graduation p {
+  margin: 10px;
+  color: #102c57;
+}
+
+.invitation-text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.invitation-text h2 {
+  text-align: center;
+}
+
+.invitation-text p {
+  color: #102c57;
+}
